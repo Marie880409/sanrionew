@@ -1,0 +1,640 @@
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.section_01 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+}
+    
+    .header_top {
+        display: flex;
+        position: fixed;
+        top: 0px;
+        flex-flow: row nowrap;
+        width: 100%;
+        min-height: 101px;
+        background: white;
+        z-index: 99;
+    }
+        .header_logo {
+            display: flex;
+            width: 10%;
+            height: 100px;
+            margin-left: 40px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .header_menu {
+            display: flex;
+            width: 90%;
+            height: 100px;
+            justify-content: right;
+            align-items: center;
+            
+        }
+            .header_menu > li {
+                width:100px;
+                height: 20px;
+                font-size: 11pt;
+                letter-spacing :1pt;
+                text-align: center;
+                line-height: 20px;
+                margin-right: 70px;
+            }
+
+    /*----------------------------바디 --------------------------------*/
+
+    .section_02 {
+        position: relative;
+        width: 100%;
+        height: 2650px;
+        
+    }   
+
+        .main_body_01 {
+            position: absolute;
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            height: auto;
+            z-index: 1;
+            
+        }   
+
+            .top {
+                position: absolute;
+                display: flex;
+                width: 60px;
+                height: 60px;
+                border-radius: 10px;
+                line-height: 60px;
+                justify-content: center;
+                top: 700px;
+                cursor: pointer;
+                right: -20px;
+                font-size: 0.8rem;
+                color: white;
+                background: #4a679e;
+            
+            }
+            .sns {
+                position: fixed;
+                display: flex;
+                flex-flow: column wrap;
+                align-items: end;
+                width: 100%;
+                height: 100px;
+                top: 140px;
+                right: 100px;
+                gap: 7px;
+            }
+                .sns > img {
+                
+                    margin-top: 10px;
+                }
+
+            .main_title_img {
+                position: relative;
+                display: flex;
+                width: 1000px;
+                top: 150px;
+                padding: 0;
+                margin: 0 auto;
+                animation: main 1s ease forwards 0s;
+            }
+            @keyframes main {
+                0% {transform: translateY(-20px);}
+                100% {transform: translateY(10px);}
+            }
+            .mouse_ani {
+                position: relative;
+                display: flex;
+                width: 100%;
+                height: 90px;
+                top: 180px;
+                padding: 20px;
+                justify-content: center;
+                
+            }
+                .mouse {
+                    position: relative;
+                    display: block;
+                    clear: both;
+                    width: 26px;
+                    height: 36px;
+                    border-radius: 20px;
+                    background: white;
+                    border: 2px solid black;
+                    margin: 0 auto;
+                    animation: move1 infinite 1.8s ease 0s;
+                }
+                @keyframes move1 {
+                    0% {transform: translateY(-10px);}
+                    50% {transform: translateY(10px);}
+                    100% {transform: translateY(-10px);}
+                }
+                    .dot {
+                        position: relative;
+                        width: 26px;
+                        height: 26px;
+                        text-align: center;
+                        line-height: 26px;
+                        font-size: 2.1rem;
+                        animation: move2 infinite 2.3s ease 0s;
+                }
+                @keyframes move2 {
+                    0% {transform: translateY(-1px);}
+                    50% {transform: translateY(7px);}
+                    100% {transform: translateY(-1px);}
+                    
+                }
+                
+                .scroll_text {
+                    position: absolute;
+                    display: block;
+                    width: 100%;
+                    font-size: 0.8rem;
+                    top: 80px;
+                    text-align: center;
+                }
+                    
+                
+                .main_title_bg {
+                    position: relative;
+                    width: 100%;
+                    height: 980px;
+                    background: url(/img/main_visual_bg.jpg) repeat 0 0 / 50px;
+
+                }
+
+
+    /*----------------------------캐릭터 소개 --------------------------------*/
+        
+            .main_body_02 {
+                position: absolute;
+                display: flex;
+                flex-flow: row wrap;
+                width: 100%;
+                height: 1500px;
+                
+                
+            }
+                #title {
+                    position: relative;
+                    display: inline-block;
+                    width: 100%;
+                    height: 100px;
+                    line-height: 100px;
+                    font-size: 3.3rem;
+                    text-align: center;
+                    margin-top: 100px;
+                   
+                    
+                }
+                .view_more {
+                    position: relative;
+                    display: flex;
+                    width: 100%;
+                    height: 100px;
+                    margin: 0 auto;
+                    align-items: center;
+                    justify-content: center;
+                    
+                }
+
+                    .view_more :hover {
+                        color: white;
+                        background: black;
+                    }
+                    .view_more:hover > img ::after {
+                        filter: invert(100%);
+                    }
+                    .veiw_icon {
+                        position: relative;
+                        display: inline-block;
+                        width: 250px;
+                        height: 50px;
+                        border: 2px solid black;
+                        border-radius: 30px;
+                        line-height: 50px;
+                        text-align: center;
+                        
+                    }   
+
+                        .veiw_icon > img {
+                            margin-left: 10px;
+                            display: inline-block;
+                            align-items: center;
+                            justify-content: center;
+                            
+                        }
+                        
+                .character_list {
+                    display: flex;
+                    flex-flow: row wrap;
+                    width: 1220px;
+                    height: 1220px;
+                    margin: 0 auto;
+                    margin-top: 40px;
+                }
+                    .ch_list {
+                        display: flex;
+                        flex-flow: row nowrap;
+                        width: 1220px;
+                        height: 285px;
+                        justify-content: space-between;
+                        box-sizing: border-box;
+                    }
+                        .item {
+                            display: flex;
+                            flex-flow: row wrap;
+                            width: 285px;
+                            height: 285px;
+                            border: 1px solid #ddd;
+                            border-radius: 20px;
+                            background: white;
+                        }
+                            .ch_img {
+                                position: relative;
+                                display: flex;
+                                clear: both;
+                                width: 285px;
+                                height: 200px;
+
+                            }
+                                .ch_img > #kitty:hover  {
+                                    content: url(../img/new_main_crt1_ov.png);
+                                }
+                                .ch_img > #melody:hover  {
+                                    content: url(../img/new_main_crt2_ov.png);
+                                }
+                                .ch_img > #kuromi:hover  {
+                                    content: url(../img/new_main_crt3_ov.png);
+                                }
+                                .ch_img > #pompom:hover  {
+                                    content: url(../img/new_main_crt4_ov.png);
+                                }
+                                .ch_img > #cinamo:hover  {
+                                    content: url(../img/new_main_crt5_ov.png);
+                                }
+                                .ch_img > #twin:hover  {
+                                    content: url(../img/new_main_crt6_ov.png);
+                                }
+                                .ch_img > #pocha:hover  {
+                                    content: url(../img/new_main_crt7_ov.png);
+                                }
+                                .ch_img > #kero:hover  {
+                                    content: url(../img/new_main_crt8_ov.png);
+                                }
+                                .ch_img > #bad:hover  {
+                                    content: url(../img/new_main_crt10_ov.png);
+                                }
+                                .ch_img > #sam:hover  {
+                                    content: url(../img/new_main_crt11_ov.png);
+                                }
+                                .ch_img > #kogi:hover  {
+                                    content: url(../img/new_main_crt12_ov.png);
+                                }
+                                .ch_img > #dinguri:hover  {
+                                    content: url(../img/new_main_crt13_ov.png);
+                                }
+                                .ch_img > #piano:hover  {
+                                    content: url(../img/new_main_crt14_ov.png);
+                                }
+                                .ch_img > #aggre:hover  {
+                                    content: url(../img/new_main_crt15_ov.png);
+                                }
+                                .ch_img > #myu:hover  {
+                                    content: url(../img/new_main_crt16_ov.png);
+                                }
+
+                            .text_box {
+                                display: flex;
+                                flex-flow: row wrap;
+                                width: 285px;
+                                height: 85px;
+                            }   
+                                .blank {
+                                    width: 285px;
+                                    height: 15px;
+                                }
+                                .ch_name {
+                                    width: 285px;
+                                    text-align: center;
+                                    height: 35px;
+                                    line-height: 35px;
+                                    font-size: 1.5rem;
+                                    color: #444;
+                                }
+                                .ch_name_e {
+                                    width: 285px;
+                                    height: 35px;
+                                    text-align: center;
+                                    font-size: 0.7rem;
+                                    color: #bbbbbb;
+                                }
+    /*---------------------------- 회사소개 --------------------------------*/
+
+    .section_03 {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        background: #f5f5f5;
+        
+    }   
+        .company_info {
+            position: relative;
+            display: flex;
+            flex-flow: row nowrap;
+            width: 1400px;
+            height: 350px;
+            margin: 0 auto;
+            margin-top: 15px;
+            
+            
+        }
+            .comapany_each {
+                position: relative;
+                display: flex;
+                float: left;
+                flex-flow: row wrap;
+                width: 400px;
+                height: 280px;
+                margin: 0 auto;
+                text-align: center;
+                align-items: center;
+                border-right: 1px solid #eee;
+                
+            }
+                #c_icon {
+                    width: 400px;
+                    height: 80px;
+                    object-fit: contain;
+                    margin-bottom: 20px;
+                }
+                #c_title{
+                    width: 400px;
+                    height: 30px;
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                }
+                #c_text {
+                    width: 400px;
+                    height: 80px;
+                    font-size: 1.125rem;
+                    padding-top: 10px;
+                }
+                .more_icon {
+                    width: 110px;
+                    height: 40px;
+                    line-height: 40px;
+                    border: 1px solid black;
+                    border-radius: 30px;
+                    margin: 0 auto;
+                    align-items: center;
+                    transition: all 0.8s;
+                }
+                    .more_icon:hover {
+                        background: black;
+                        color: white;
+                        transition: all 0.8s;
+                    }
+        /*---------------------------- 사업영역  --------------------------------*/
+        .section_04 {
+            position: relative;
+            width: 100%;
+            height: 1260px;
+            
+        
+        } 
+        .recruit {
+            position: relative;
+            display: flex;
+            flex-flow: row nowrap;
+            width: 1400px;
+            height: 500px;
+            margin: 0 auto;
+            margin-top: 20px;
+            
+
+        }
+            .recruit_each {
+                position: relative;
+                display: flex;
+                float: left;
+                flex-flow: row wrap;
+                width: 300px;
+                height: 280px;
+                margin: 0 auto;
+                text-align: center;
+                align-items: center;
+            }
+                #r_icon {
+                    width: 230px;
+                    height: 175px;
+                    object-fit: contain;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+        .place_info {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            background-image: url("../img/bg_shop.jpg");
+            
+            top: 40px;
+            
+           
+        }
+        /*---------------------------- footer  --------------------------------*/
+
+        footer {
+            position: relative;
+            width: 100%;
+            height: 1150px;
+            background: #1c1c1c;
+        }
+        .contact {
+            position: relative;
+            width: 100%;
+            height: 1000px;
+            background: #4a679e;
+        }
+
+            .contact_us {
+                position: relative;
+                display: flex;
+                flex-flow: row wrap;
+                width: 100%;
+                height: auto;
+                
+            }
+            .contact_logo {
+                display: flex;
+                position: relative;
+                width: 100%;
+                height: 45px;
+                margin-top: 100px;
+                
+            }
+            .contact_logo > img {
+                width: 165px;
+                height: 45px;
+                margin: 0 auto;
+                
+            }
+                .contact_us > title{
+                    display: flex;
+                    width: 100%;
+                    height: 50px;
+                    margin: 0px;
+                    padding: 0px;
+                    top: -90px;
+                    color: white;
+                   
+                }
+                .contact_us > .view_more {
+                    display: flex;
+                    width: 100%;
+                    height: 90px;
+                    margin: 0px;
+                    padding: 0px;
+                    top: -90px;
+                    color: white;
+                    cursor: pointer;
+                    
+                }
+                .contact > .contact_us > .view_more > .veiw_icon {
+                    
+                        position: relative;
+                        display: inline-block;
+                        width: 250px;
+                        height: 50px;
+                        border: 2px solid white;
+                        border-radius: 30px;
+                        line-height: 50px;
+                        text-align: center;
+                        
+                    
+                }
+                .contact > .contact_us > .view_more > .veiw_icon:hover {
+                    color: black;
+                    background: white;
+                }
+                .contact > .contact_us > .view_more > .veiw_icon > img {
+                    filter: invert(100%);
+                }
+            .map {
+                position: relative;
+                display: flex;
+                flex-flow: row nowrap;
+                width: 1400px;
+                height: 430px;
+                top: -30px;
+                border-radius: 15px;
+                background: white;
+                margin: 0 auto;
+
+            }
+                .map_img {
+                    position: relative;
+                    display: flex;
+                    width: 700px;
+                    height: 430px;
+                    
+                }
+                    .map_img > iframe {
+                        width: 700px;
+                        height: 430px;
+                        border-radius: 15px;
+                    }
+                #kitty_car {
+                    position: absolute;
+                    top: 250px;
+                    left: 1100px;
+                }
+                .map_text {
+                    position: relative;
+                    display: flex;
+                    flex-flow: row wrap;
+                    width: 700px;
+                    height: 500px;
+                    text-align: left;
+
+                }
+                    .map_01 {
+                        position: relative;
+                        width: 640px;
+                        height: 100px;
+                        line-height: 40px;
+                        font-size: 1.5rem;
+                        padding-left: 40px;
+                        margin-top: 100px;
+                        
+                    }
+                    .map_02 {
+                        position: relative;
+                        width: 640px;
+                        height: 100px;
+                        line-height: 30px;
+                        font-size: 0.8rem;
+                        padding-left: 40px;
+                        color: #949494;
+                        
+                    }
+                    .map_03 {
+                        position: relative;
+                        width: 660px;
+                        height: 100px;
+                        line-height: 30px;
+                        font-size: 0.9rem;
+                        padding-left: 40px;
+                        color: #444;
+                        top: -20px;
+                        font-weight: 700;
+                    }
+                        .colorm {
+                            font-style: italic;
+                            color: #4a679e;
+                            font-weight: 700;
+                        }
+            
+            .personal {
+                position: relative;
+                display: flex;
+                flex-flow: row nowrap;
+                width: 100%;
+                height: 100px;
+            }
+                .info01 {
+                    position: relative;
+                    width: 50%;
+                    height: 100px;
+                    line-height: 100px;
+                    float: left;
+                    margin-top: 30px;
+                    margin-left: 30px;
+                    font-size: 1.1rem;
+                    color: #ddd;
+                    
+                }
+                .info02 {
+                    position: relative;
+                    left: 720px;
+                    width: 150px;
+                    height: 50px;
+                    border-radius: 30px;
+                    line-height: 50px;
+                    text-align: center;
+                    margin-top: 60px;
+                    font-size: 0.9rem;
+                    color: #ddd;
+                    border: 1px solid white;
+                    
+                }
