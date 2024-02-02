@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanrio Lover Club</title>
+    <style type="text/css" rel="stylesheet">
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-size: 11pt;
+            font-family: 'Montserrat', sans-serif;
+        }
+        h1,h2,h3,p,ul {
+            margin: 0;
+            padding: 0;
+        }
+        ul li {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+    <!---------font----------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!---------css----------->
+    <link href="./css/page.css" rel="stylesheet">
+</head>
+<body>
+    <!----------------------------헤더-------------------------------->
+    <section class="section_01">
+        <header>
+            <div class="header_top">
+                <div class="header_logo">
+                    <img src="./img/logo_2023.png" width="132px" height="36px">
+                </div>
+                <ul class="header_menu">
+                    <li> COMPANY </li>
+                    <li> CHARACTER </li>
+                    <li> PLACE </li>
+                    <li> RECRUIT </li>
+                </ul>
+            </div>
+        </header>
+        <div class="sns">
+            <div class="top"> TOP </div>
+            <a href="https://www.instagram.com/sanrio_kr/" target="_blank">
+                <img src="./img/ins.png" width="40px" height="40px">
+            </a>
+            <a href="https://www.youtube.com/c/sanriokorea/featured" target="_blank">
+                <img src="./img/ytb.png" width="40px" height="40px">
+            </a>    
+        </div>
+    </section>
+    <!----------------------------바디-------------------------------->
+    <section class="section_02">
+        <div class="main">
+            <div class="main_text">
+                <div class="text_01"> 
+                    <div class="year">
+                        <p> 1974 </p>
+                        <img src="./img/year_bg.png">
+                    </div>
+                    
+                    <p class="name"> HELLO KITTY </p>
+                    <p class="name_kr"> 헬로키티 </p>
+                </div>
+                <div class="text_02">
+                    <p class="bday">
+                        <p class="b01"> 생일 </p>
+                        <p class="b02"> 11월1일 </p>
+                    </p>
+                    <p class="kitty"> 사과 5개를 쌓은 높이의 키와, 사과 3개 정도의 몸무게가 나가는 헬로키티는 밝고 상냥한 <br>
+                        여자아이예요. 쿠키를 만들고 피아노 치는 것을 가장 좋아하며, 피아니스트와 시인이 되는 것이<br>
+                        꿈이에요. 특기는 음악과 영어. 좋아하는 음식은 엄마가 만들어준 애플 파이. 쌍둥이 동생 미미와<br>
+                        가장 친하답니다.</p>
+                </div>
+            </div>
+            <img id="kitty_img" src="./img/hellokitty_v1.png">
+        </div>
+    </section>
+    <!----------------------------바디 헬로키티 가족-------------------------------->
+    <section class="section_03">
+        <title class="title"> 헬로키티 가족 </title>
+    </section>
+    <div class="character_list">
+        <ul class="ch_list">
+            <li class="item">
+                <div class="ch_img">
+                    <img id="kitty" src="./img/new_main_crt1.png" width="285px">
+                </div>
+                <div class="text_box">
+                    <div class="blank"></div>
+                    <p class=ch_name style="font-weight: 400;"> 헬로키티 </p>
+                    <p class="ch_name_e"> HELLO KITTY </p>
+                </div>  
+            </li>
+            <li class="item">
+                <div class="ch_img">
+                    <img id="kitty" src="./img/new_main_crt1.png" width="285px">
+                </div>
+                <div class="text_box">
+                    <div class="blank"></div>
+                    <p class=ch_name style="font-weight: 400;"> 헬로키티 </p>
+                    <p class="ch_name_e"> HELLO KITTY </p>
+                </div>  
+            </li>
+            <li class="item">
+                <div class="ch_img">
+                    <img id="kitty" src="./img/new_main_crt1.png" width="285px">
+                </div>
+                <div class="text_box">
+                    <div class="blank"></div>
+                    <p class=ch_name style="font-weight: 400;"> 헬로키티 </p>
+                    <p class="ch_name_e"> HELLO KITTY </p>
+                </div>  
+            </li>
+            <li class="item">
+                <div class="ch_img">
+                    <img id="kitty" src="./img/new_main_crt1.png" width="285px">
+                </div>
+                <div class="text_box">
+                    <div class="blank"></div>
+                    <p class=ch_name style="font-weight: 400;"> 헬로키티 </p>
+                    <p class="ch_name_e"> HELLO KITTY </p>
+                </div>  
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <div class="personal">
+            <p class="info01"> 2023 sanrio co.,ltd </p>
+            <p class="info02"> 개인정보처리방침 </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+    
+    /*--------------탑버튼---------------*/
+    $(".top").on("click",function(){
+        $("body, html").animate({
+            scrollTop : "0px"
+        },1000)
+    });
+    
+    /*--------------스크롤 시 탑버튼 등장---------------*/
+    $(document).ready(function(){
+        var main_bg = $(".section_02").height();
+    
+        $(".top").hide();
+    
+        $(window).scroll(function(){
+            var roll = $(this).scrollTop() >= main_bg;
+    
+            if(roll){
+                $(".top").show();
+            }else{
+                $(".top").hide();
+            }
+        });
+    })
+    </script>
+</body>
+</html>
