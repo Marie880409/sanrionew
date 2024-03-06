@@ -1,8 +1,7 @@
 body{
     width: 100%;
     height: auto;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    
 }
 .section_01 {
     position: relative;
