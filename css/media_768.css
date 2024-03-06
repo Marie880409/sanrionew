@@ -81,7 +81,7 @@
             .top {
                 position: relative;
                 display: fixed;
-                left:220px;
+                left:0px;
             
             }
             .main_title_img {
