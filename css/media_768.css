@@ -160,10 +160,11 @@
         .ch_list {
             display: flex;
             flex-flow: column wrap;
-            width: calc(100% - 20px);
+            width: 420px;
             height: 420px;
-            margin-top: 10px;
+            margin-top: 6px;
             margin: 0 auto;
+            justify-content: space-around;
             background: yellow;
         }
             .item {
