@@ -181,6 +181,10 @@
                     width: 200px;
                     height: 140px;
                 }
+                .ch_img > img {
+                    width: 200px;
+                    height: 140px;
+                }
                     .ch_img > #kitty:hover  {
                         width:200px;
                         height: 140px;
