@@ -151,9 +151,9 @@
         position: relative;
         display: flex;
         flex-flow: row wrap;
-        width: calc(100% - 28px);
+        width: 100%;
         height: 1730px;
-        /* background: wheat; */
+        background: wheat;
         padding: 10px;
         justify-content: space-between;
     }
@@ -164,7 +164,7 @@
             height: 420px;
             margin-top: 10px;
             margin: 0 auto;
-            /* background: yellow; */
+            background: yellow;
         }
             .item {
                 display: flex;
