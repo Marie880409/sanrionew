@@ -365,6 +365,9 @@
                             width: 450px;
                             height: 250px;
                         }
+                            #kitty_car {
+                                display: none;
+                            }
                             .map_img > iframe {
                                 width: 450px;
                                 height: 200px;
