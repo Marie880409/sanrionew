@@ -435,8 +435,8 @@
                         position: relative;
                         display: flex;
                         flex-flow: row wrap;
-                        width: 350px;
-                        height: 350px;
+                        width: 450px;
+                        height: 450px;
                         top: 10px;
                         background:yellow;
                     }
