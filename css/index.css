@@ -47,6 +47,9 @@ body{
                 line-height: 20px;
                 margin-right: 70px;
             }
+            .media_ham_menu {
+                display: none;
+            }
 
     /*----------------------------바디 --------------------------------*/
 
@@ -92,10 +95,11 @@ body{
                 height: 100px;
                 top: 140px;
                 right: 100px;
-                gap: 7px;
+                gap: 6px;
             }
                 .sns > img {
-                
+                    width: 30px;
+                    height: 30px;
                     margin-top: 10px;
                 }
 
@@ -107,6 +111,9 @@ body{
                 padding: 0;
                 margin: 0 auto;
                 animation: main 1s ease forwards 0s;
+            }
+            .main_title_img > img:nth-child(2) {
+                display: none;
             }
             @keyframes main {
                 0% {transform: translateY(-20px);}
@@ -291,6 +298,9 @@ body{
                                 }
                                 .ch_img > #kero:hover  {
                                     content: url(../img/new_main_crt8_ov.png);
+                                }
+                                .ch_img > #tama:hover  {
+                                    content: url(../img/new_main_crt9_ov.png);
                                 }
                                 .ch_img > #bad:hover  {
                                     content: url(../img/new_main_crt10_ov.png);
@@ -497,7 +507,6 @@ body{
                     padding: 0px;
                     top: -90px;
                     color: white;
-                   
                 }
                 .contact_us > .view_more {
                     display: flex;
