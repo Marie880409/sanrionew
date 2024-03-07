@@ -170,105 +170,105 @@
             .item {
                 display: flex;
                 flex-flow: row wrap;
-                width: 200px;
-                height: 200px;
+                width: 180px;
+                height: 180px;
                 margin: 0 auto;
             }
                 .ch_img {
                     position: relative;
                     display: flex;
                     clear: both;
-                    width: 200px;
+                    width: 180px;
                     height: 140px;
                 }
                 .ch_img > img {
-                    width: 200px;
+                    width: 180px;
                     height: 140px;
                 }
                     .ch_img > #kitty:hover  {
-                        width:200px;
+                        width:180px;
                         height: 140px;
                         content: url(../img/new_main_crt1_ov.png);
                     }
                     .ch_img > #melody:hover  {
-                        width:200px;
+                        width:180px;
                         height: 140px;
                         content: url(../img/new_main_crt2_ov.png);
                     }
                     .ch_img > #kuromi:hover  {
-                        width:200px;
+                        width:180px;
                         height: 140px;
                         content: url(../img/new_main_crt3_ov.png);
                     }
                     .ch_img > #pompom:hover  {
-                        width:200px;
+                        width:180px;
                         height: 140px;
                         content: url(../img/new_main_crt4_ov.png);
                     }
                     .ch_img > #cinamo:hover  {
-                        width:200px;
+                        width:180px;
                         height: 140px;
                         content: url(../img/new_main_crt5_ov.png);
                     }
                     .ch_img > #twin:hover  {
-                        width:200px;
+                        width:180px;
                         height: 140px;
                         content: url(../img/new_main_crt6_ov.png);
                     }
                     .ch_img > #pocha:hover  {
-                        width:200px;
+                        width:180px;
                         height: 140px;
                         content: url(../img/new_main_crt7_ov.png);
                     }
                     .ch_img > #kero:hover  {
-                        width:200px;
+                        width:180px;
                         height: 140px;
                         content: url(../img/new_main_crt8_ov.png);
                     }
                     .ch_img > #tama:hover  {
-                        width:200px;
+                        width:180px;
                         height: 140px;
                         content: url(../img/new_main_crt9_ov.png);
                     }
                     .ch_img > #bad:hover  {
-                        width:200px;
+                        width:180px;
                         height: 140px;
                         content: url(../img/new_main_crt10_ov.png);
                     }
                     .ch_img > #sam:hover  {
-                        width:200px;
+                        width:180px;
                         height: 140px;
                         content: url(../img/new_main_crt11_ov.png);
                     }
                     .ch_img > #kogi:hover  {
-                        width:200px;
+                        width:180px;
                         height: 140px;
                         content: url(../img/new_main_crt12_ov.png);
                     }
                     .ch_img > #dinguri:hover  {
-                        width:200px;
+                        width:180px;
                         height: 140px;
                         content: url(../img/new_main_crt13_ov.png);
                     }
                     .ch_img > #piano:hover  {
-                        width:200px;
+                        width:180px;
                         height: 140px;
                         content: url(../img/new_main_crt14_ov.png);
                     }
                     .ch_img > #aggre:hover  {
-                        width:200px;
+                        width:180px;
                         height: 140px;
                         content: url(../img/new_main_crt15_ov.png);
                     }
                     .ch_img > #myu:hover  {
-                        width:200px;
+                        width:180px;
                         height: 140px;
                         content: url(../img/new_main_crt16_ov.png);
                     }
                 
                 .text_box {
                     display: flex;
-                    width: 200px;
+                    width:180px;
                     height: 60px;
                    
                 }
@@ -276,7 +276,8 @@
                         display: none;
                     }
                     .ch_name {
-                        width: 200px;
+                        font-size: 1.1rem;
+                        width:180px;
                         height: 40px;
                         line-height: 40px;
                     }
