@@ -466,45 +466,62 @@
                         background:yellow;
                     }
                         .map_img {
-                            position: relative;
                             display: flex;
-                            width: 400px;
-                            height: 250px;
+                            position: relative;
+                            width: 350px;
+                            height: 200px;
                         }
                             #kitty_car {
                                 display: none;
                             }
                             .map_img > iframe {
-                                width: 400px;
+                                display: flex;
+                                width: 350px;
                                 height: 200px;
                             }
-                            .map_txt {
+                        .map_txt {
+                            display: flex;
+                            flex-flow: row wrap;
+                            width: 350px;
+                            height: 150px;
+                            
+                        }
+                            .map_01 {
                                 display: flex;
-                                width: 400px;
-                                height: 250px;
+                                width:350px;
+                                height: 25px;
+                                line-height: 25px;
+                                text-align: center;
+                                font-size: 0.8rem;
+                                justify-content: center;
+                                margin-top: 0px;
+                                top:10px;
+                                padding-left: 0px;
+                                /* background: wheat; */
                             }
-                                .map_01 {
-                                    width:400px;
-                                    height: 20px;
-                                    line-height: 20px;
-                                    text-align: left;
-                                    font-size: 1rem;
-                                    margin-top: 0px;
-                                    top: -40px;
-                                }
-                                .map_02 {
-                                    width: 400px;
-                                    height: 20px;
-                                    line-height: 15px;
-                                    top: -10px;
-                                    font-size: 8pt;
-                                }
-                                .map_03 {
-                                    width: 400px;
-                                    line-height: 20px;
-                                    font-size: 0.8rem;
-                                    top:18px;
-                                }
+                            .map_02 {
+                                display: flex;
+                                width: 350px;
+                                height: 30px;
+                                text-align: center;
+                                line-height: 15px;
+                                justify-content: center;
+                                padding-left: 0px;
+                                font-size: 8pt;
+                                top:10px;
+                                /* background: palegreen; */
+                            }
+                            .map_03 {
+                                display: flex;
+                                flex-flow: row wrap;
+                                width: 350px;
+                                height: 80px;
+                                line-height: 20px;
+                                font-size: 0.8rem;
+                                top:18px;
+                                padding-left: 0px;
+                                background: pink;
+                            }
             
             .personal{
                 position: relative;
