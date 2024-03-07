@@ -34,13 +34,15 @@
                         
                         
                     }
-                    .media_ham_menu {
+                    .media_ham_icon{
                         position: relative;
                         display: flex;
                         width: 40px;
                         height: 40px;
                         right: 10px;
+                        background: yellow;
                     }
+                  
             .main_title_bg {
                 position: relative;
                 width: 100%;
@@ -155,6 +157,7 @@
         height: 1730px;
         /* background: wheat; */
         padding: 10px;
+        align-items: center;
         justify-content: space-between;
     }
         .ch_list {
@@ -165,7 +168,8 @@
             margin-top: 6px;
             margin: 0 auto;
             justify-content: space-around;
-            background: yellow;
+            
+            /* background: yellow; */
         }
             .item {
                 display: flex;
