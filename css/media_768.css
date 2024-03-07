@@ -302,6 +302,8 @@
             width: calc(100% - 30px);
             height: 420px;
             margin-top: 0px;
+            
+            background: yellow;
            
         }
             .comapany_each {
