@@ -410,9 +410,10 @@ $(document).ready(function(){
 
 
 $("#media_ham_icon").on("click",function(){
-    $(".media_ham_menu").css(
-        "visibility","visible"
-    ).toggle();
+    $(".media_ham_menu").css({
+        "visibility" : "visible",
+        "transition" : "all 1s ease"
+    }).toggle()
 });
 
 
