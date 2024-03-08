@@ -34,15 +34,45 @@
                         
                         
                     }
-                    .media_ham_icon{
+                    
+                    .media_menu_wrap > #media_ham_icon{
                         position: relative;
                         display: flex;
                         width: 40px;
                         height: 40px;
                         right: 10px;
+                        cursor: pointer;
                         /* background: yellow; */
                     }
-                  
+                    
+                    .media_ham_menu {
+                        position: absolute;
+                        visibility: hidden;
+                        top:52px;
+                        left:-40px;
+                        width: 600px;
+                        height: 1000px;
+                        justify-content: center;
+                        background: white;
+                        transition: all 1s ease;
+                        z-index: 9999;
+                    }
+                        .media_ham_menu > li {
+                            width: 200px;
+                            height: 60px;
+                            font-size: 1.5rem;
+                            line-height: 60px;
+                            text-align: center;
+                            margin: 0 auto;
+                            font-weight: bold;
+                            padding-top: 10px;
+                            cursor: pointer;
+                            /* background: yellow; */
+                            
+                        }
+                        .media_ham_menu > li:hover {
+                            color:#ddd;
+                        }
             .main_title_bg {
                 position: relative;
                 width: 100%;
