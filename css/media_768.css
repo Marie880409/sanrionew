@@ -189,13 +189,13 @@
         /* background: wheat; */
         padding: 10px;
         align-items: center;
-        margin-right: 20px;
+        /* margin-right: 20px; */
         justify-content: space-between;
     }
         .ch_list {
             display: flex;
             flex-flow: column wrap;
-            width: 420px;
+            width: 411px;
             height: 420px;
             
             margin-top: 6px;
