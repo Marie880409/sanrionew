@@ -188,6 +188,7 @@
         /* background: wheat; */
         padding: 10px;
         align-items: center;
+        margin-right: 5px;
         justify-content: space-between;
     }
         .ch_list {
@@ -195,11 +196,12 @@
             flex-flow: column wrap;
             width: 420px;
             height: 420px;
+            
             margin-top: 6px;
             margin: 0 auto;
             justify-content: space-around;
             
-            /* background: yellow; */
+            background: yellow;
         }
             .item {
                 display: flex;
