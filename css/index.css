@@ -46,10 +46,10 @@ body{
                 line-height: 20px;
                 margin-right: 70px;
             }
-            .media_ham_icon {
+            #media_ham_icon {
                 display: none;
             }
-            
+
 
     /*----------------------------바디 --------------------------------*/
 
