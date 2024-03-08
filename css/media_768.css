@@ -201,7 +201,7 @@
             margin: 0 auto;
             justify-content: space-around;
             margin-left: 20px;
-            background: yellow;
+            background: pink;
         }
             .item {
                 display: flex;
