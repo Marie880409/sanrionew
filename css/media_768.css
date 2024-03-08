@@ -63,11 +63,12 @@
                             font-size: 1.5rem;
                             line-height: 60px;
                             text-align: center;
+                            padding-right: 50px;
                             margin: 0 auto;
                             font-weight: bold;
                             padding-top: 10px;
                             cursor: pointer;
-                            /* background: yellow; */
+                            color: red;
                             
                         }
                         .media_ham_menu > li:hover {
@@ -200,8 +201,8 @@
             margin-top: 6px;
             margin: 0 auto;
             justify-content: space-around;
-            margin-left: 20px;
-            background: pink;
+            
+            background: yellow;
         }
             .item {
                 display: flex;
@@ -564,7 +565,7 @@
                 .info01 {
                     width: 100%;
                     height: 30px;
-                    left: 70px;
+                    left: 50px;
                     top:70px;
                     display: flex;
                     justify-content: center;
