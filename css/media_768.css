@@ -63,7 +63,7 @@
                             font-size: 1.5rem;
                             line-height: 60px;
                             text-align: center;
-                            padding-right: 50px;
+                            padding-right: 75px;
                             margin: 0 auto;
                             font-weight: bold;
                             padding-top: 10px;
@@ -189,7 +189,7 @@
         /* background: wheat; */
         padding: 10px;
         align-items: center;
-        margin-right: 5px;
+        margin-right: 15px;
         justify-content: space-between;
     }
         .ch_list {
@@ -202,7 +202,7 @@
             margin: 0 auto;
             justify-content: space-around;
             
-            background: yellow;
+            /* background: yellow; */
         }
             .item {
                 display: flex;
@@ -423,7 +423,7 @@
                     display: flex;
                     width: 80px;
                     height: 30px;
-                    left: 200px;
+                    left: 260px;
                     margin-top: 10px;
                     justify-content: center;
                 }
